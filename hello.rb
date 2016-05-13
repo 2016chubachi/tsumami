@@ -9,3 +9,6 @@ get '/aiit' do
   "Hi, AIIT"
 end
 
+post '/searchResult_04.html' do
+  redirect to('/searchResult_04.html')
+end
