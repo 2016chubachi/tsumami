@@ -89,54 +89,51 @@
   </div>
   <br>
     <br>
-    <div class="container">
-  <div class="row text-center">
-
-  
-      <table width="100%" border="0">
-        <tbody>
-        <tr height="30"><td width="40%"></td><td></td><td></td><td width="25%"></td></tr>
-                        <tr height="30"><td></td><td></td><td></td></tr>
-                                <tr height="30"><td></td><td></td><td></td></tr>
-          <tr>
-                <td></td>    <td width="10%"> <label for="textfield">食材:</label></td>
-            <td align="left">
-             
-              <input name="textfield" type="text" class="cards" id="textfield" width="100%">
-            </td>
-          </tr>
-          <tr height="15"><td></td><td></td><td></td></tr>
-          <tr><td></td>
-          <td><label for="select">お酒:</label></td>
-            <td align="left">
-              
-              <select name="select" class="cards" id="select">
-                <option>日本酒</option>
-                <option>ビール</option>
-                <option>ワイン</option>
-              </select>
-            </td>
-          </tr>
-          <tr height="15"><td></td><td></td><td></td></tr>
-          <tr align="right"><td></td>
-          </tr>
-          <tr align="right"><td></td><td></td><td><a href="searchList.html" target="_self">検索</a>
-          </td><td> 
-            </td>
-          </tr>
-          <tr height="30"><td></td><td></td><td></td></tr>
-          <tr height="30"><td></td><td></td><td></td></tr>
-        </tbody>
-      </table>
-  </div>
-</div>
-<h2 class="text-center">おすすめ</h2>
+<h2 class="text-center">レシピ一覧</h2>
 <div class="container">
+  <div class="row text-center">
+    <div class="col-sm-4 col-md-4 col-lg-4 col-xs-6">
+      <div class="thumbnail"> <img src="images/seach1.jpg" alt="Thumbnail Image 1" class="img-responsive" style="width:400px;height:200px">
+        <div class="caption">
+          <h3>デザート</h3>
+          <p>美味しい😋</p>
+          <p><a href="detail.html" class="btn btn-primary" role="button"><span class="glyphicon glyphicon-shopping-cart" aria-hidden="true"></span> 詳細</a></p>
+        </div>
+      </div>
+    </div>
+    <div class="col-sm-4 col-md-4 col-lg-4 col-xs-6">
+      <div class="thumbnail"> <img src="images/seach2.jpg" alt="Thumbnail Image 1" class="img-responsive" style="width:400px;height:200px">
+        <div class="caption">
+          <h3>カレーカツ</h3>
+          <p>美味しい😋</p>
+          <p><a href="detail.html" class="btn btn-primary" role="button"><span class="glyphicon glyphicon-shopping-cart" aria-hidden="true"></span> 詳細</a> </p>
+        </div>
+      </div>
+    </div>
+    <div class="col-sm-4 col-md-4 col-lg-4 col-xs-6">
+      <div class="thumbnail"> <img src="images/seach3.jpg" alt="Thumbnail Image 1" class="img-responsive" style="width:400px;height:200px">
+        <div class="caption">
+          <h3>知らない</h3>
+          <p>美味しい😋</p>
+          <p><a href="detail.html" class="btn btn-primary" role="button"><span class="glyphicon glyphicon-shopping-cart" aria-hidden="true"></span> 詳細</a> </p>
+        </div>
+      </div>
+    </div>
+    <div class="col-sm-4 col-md-4 col-lg-4 col-xs-6 hidden-lg hidden-md hidden-sm">
+      <div class="thumbnail"> <img src="images/seach4.jpg" alt="Thumbnail Image 1" class="img-responsive" style="width:400px;height:200px">
+        <div class="caption">
+          <h3>知らない</h3>
+          <p>美味しい😋</p>
+          <p><a href="detail.html" class="btn btn-primary" role="button"><span class="glyphicon glyphicon-shopping-cart" aria-hidden="true"></span> 詳細</a></p>
+        </div>
+      </div>
+    </div>
+  </div>
   <div class="row text-center hidden-xs">
     <div class="col-xs-4 col-sm-4 col-md-4 col-lg-4">
       <div class="thumbnail"> <img src="images/seach4.jpg" alt="Thumbnail Image 1" class="img-responsive" style="width:400px;height:200px">
         <div class="caption">
-          <h3>マグロ丼</h3>
+          <h3>知らない</h3>
           <p>美味しい😋</p>
           <p><a href="detail.html" class="btn btn-primary" role="button"><span class="glyphicon glyphicon-shopping-cart" aria-hidden="true"></span> 詳細</a> </p>
         </div>
@@ -161,6 +158,18 @@
       </div>
     </div>
   </div>
+  <nav class="text-center">
+    <!-- Add class .pagination-lg for larger blocks or .pagination-sm for smaller blocks-->
+    <ul class="pagination">
+      <li> <a href="#" aria-label="Previous"> <span aria-hidden="true">&laquo;</span> </a> </li>
+      <li class="active"><a href="#">1</a></li>
+      <li><a href="#">2</a></li>
+      <li><a href="#">3</a></li>
+      <li><a href="#">4</a></li>
+      <li class="disabled"><a href="#">5</a></li>
+      <li> <a href="#" aria-label="Next"> <span aria-hidden="true">&raquo;</span> </a> </li>
+    </ul>
+  </nav>
 </div>
 <hr>
 <footer class="text-center">
