@@ -88,75 +88,28 @@
   </div>
 </div>
 <br>
-<br>
-<div class="container">
-  <div class="row text-center">
-    <table width="100%" border="0">
-      <tbody>
-        <tr height="30">
-          <td width="40%"></td>
-          <td></td>
-          <td></td>
-          <td width="25%"></td>
-        </tr>
-        <tr height="30">
-          <td></td>
-          <td></td>
-          <td></td>
-        </tr>
-        <tr height="30">
-          <td></td>
-          <td></td>
-          <td></td>
-        </tr>
-        <tr>
-          <td></td>
-          <td width="10%"><label for="textfield">食材:</label></td>
-          <td align="left"><input name="textfield" type="text" class="cards" id="textfield" width="100%"></td>
-        </tr>
-        <tr height="15">
-          <td></td>
-          <td></td>
-          <td></td>
-        </tr>
-        <tr>
-          <td></td>
-          <td><label for="select">お酒:</label></td>
-          <td align="left"><select name="select" class="cards" id="select">
-              <option selected>お酒なし</option>
-              <option>日本酒</option>
-              <option>ビール</option>
-              <option>ワイン</option>
-            </select></td>
-        </tr>
-        <tr height="15">
-          <td></td>
-          <td></td>
-          <td></td>
-        </tr>
-        <tr align="right">
-          <td></td>
-        </tr>
-        <tr align="right">
-          <td></td>
-          <td></td>
-          <td><a href="searchList.html" target="_self">検索</a></td>
-          <td></td>
-        </tr>
-        <tr height="30">
-          <td></td>
-          <td></td>
-          <td></td>
-        </tr>
-        <tr height="30">
-          <td></td>
-          <td></td>
-          <td></td>
-        </tr>
-      </tbody>
-    </table>
-  </div>
+<div class="container"> 
+   <form class="form-inline" style="margin-top:10px; margin-bottom:30px; float:right; ">
+     <div class="form-group ">
+   	   <label for="InputFood">食材：</label>
+         <input type="email" class="form-control" id="InputFood" placeholder="食材を入力して下さい。">
+      </div>
+      
+      <div class="form-group">
+         <label  for="InputSelect" style="margin-left:10px">選択：</label>
+		<select class="form-control" id="InputSelect">
+        		<option></option>
+			<option>ビール</option>
+			<option>日本酒</option>
+			<option>焼酎</option>
+		</select>
+      </div>
+      <div class="form-group">
+         <input type="submit" value="検索" class="btn btn-primary" formaction="searchList.html">
+      </div>
+   </form>
 </div>
+
 <h2 class="text-center">おすすめ</h2>
 <div class="container">
   <div class="row text-center hidden-xs">
