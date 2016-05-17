@@ -6581,4 +6581,15 @@ button.close {
     display: none !important;
   }
 }
+
+/* 商品一覧のリストの設定 */
+#item-list ul li {
+  width:50%;
+  float:left;
+  height:100px;
+  list-style-type:disc;
+  text-align:left;
+}
+
+
 /*# sourceMappingURL=bootstrap.css.map */
