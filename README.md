@@ -4,6 +4,5 @@ tsumami
 
 Application site page:
 
-http://otsumami.herokuapp.com/index.html
-
+https://otsumami2.herokuapp.com/index.html
 
